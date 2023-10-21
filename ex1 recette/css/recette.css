@@ -1,0 +1,93 @@
+*{
+  font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+/*****************************************************HEADER************************************************************/
+header{
+  margin: auto;
+  text-align: center;
+  background-color: grey;
+}
+header img{
+  margin: 10px;
+}
+header nav{
+  background-color: #494949;
+  height: 50px;
+}
+header nav ul{
+  padding: 5px;
+}
+header nav li{
+  display: inline;
+  padding: 20px;
+}
+header nav li a{
+  color: white;
+  font-size: 20px;
+}
+header nav a:hover, nav a.current{
+  text-shadow: rgba(255,255,255,0.5) 1px 0px 1px; text-decoration: none;
+  border: 1px solid #36b0d9; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -o-border-radius: 10px;
+  background-color: #F7E0AE;
+  color: black;
+  text-decoration: underline;
+}
+
+/*****************************************************CENTER************************************************************/
+
+body h2{
+  padding: 10px;
+  font-size: 30px;
+}
+#conteneur{
+  display: flex;
+  justify-content: space-between;
+}
+body div{
+
+}
+body div article{
+  background-color: #F7E0AE;
+  padding: 10px;
+  width: 28%;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body div article h4{
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+body div article p{
+
+}
+body div article ul{
+  padding: 10px;
+}
+body form{
+  margin: 10px;
+}
+body form fieldset{
+  margin: 50px;
+  padding: 10px;
+}
+#submit{
+  margin-left: 50px;
+}
+
+/**************************************************FOOTER***************************************************************/
+
+footer{
+  background-color: #494949;
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}

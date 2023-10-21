@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/parc_info.css">
+</head>
+<body>
+<header>
+  <section>
+    <img src="img/computer.jpg" alt="Image ordinateur">
+    <img src="img/logo.png" alt="Image Gestion du parc informatique">
+  </section>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Acceuil - Liste des incidents</a>
+      </li>
+      <li>
+        <a href="form.html">Signaler un incident</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<section>
+  <h2>
+    Vous pouvez à l'aide de ce formulaire, signaler un incident.
+  </h2>
+  <form>
+    <fieldset id="1stR">
+      <legend>
+        Informations personnelles :
+      </legend>
+      <section>
+        <label for="name">Votre nom :</label>
+        <input id= "name" type="text" value="Entrez ici votre nom">
+        <br><br>
+        <label for="surname">Votre prénom :</label>
+        <input id="surname" type="text" value="Entrez ici votre prénom">
+        <br><br>
+        <label for="email">Votre email :</label>
+        <input id="email" type="email" value ="Entrez ici votre email" pattern="(^[a-z0-9]+)@([a-z0-9])+(\.)([a-z]{2,4})" name="exemple_email">
+      </section>
+      <section>
+        <label for="dateIncident">Date de l'incident :</label>
+        <input id ="dateIncident" type="date" value="">
+        <br><br>
+        <label for="photoIncident">Photo de l'incident :</label>
+        <input id="photoIncident" type="file" value="">
+      </section>
+    </fieldset>
+    <fieldset>
+      <legend>
+        Résumé du problème
+      </legend>
+      <textarea name="résumé problème" cols="100" rows = "5">
+        Entrez ici la description de l'incident
+      </textarea>
+    </fieldset>
+    <input id="submit" type="submit" value="Envoyer">
+  </form>
+</section>
+<footer>
+  Design by Choquet Olivier
+</footer>
+
+</body>
+</html>

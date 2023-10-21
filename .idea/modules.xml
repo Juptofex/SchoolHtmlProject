@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Algo/Algo/Algo.iml" filepath="$PROJECT_DIR$/../Algo/Algo/Algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cours HTML.iml" filepath="$PROJECT_DIR$/Cours HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex1 recette.iml" filepath="$PROJECT_DIR$/ex1 recette.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex2 parc_info.iml" filepath="$PROJECT_DIR$/ex2 parc_info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex3 voyages.iml" filepath="$PROJECT_DIR$/ex3 voyages.iml" />
+    </modules>
+  </component>
+</project>

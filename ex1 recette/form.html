@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="css/recette.css">
+</head>
+
+<body>
+<header>
+  <img src="img/logo.png" alt="Image de Recette HTML">
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Accueil</a>
+      </li>
+      <li>
+        <a href="https://validator.w3.org/nu">Validateur HTML5</a>
+      </li>
+      <li>
+        <a href="https://jigsaw.w3.org/css-validator/">Validateur CSS3</a>
+      </li>
+      <li>
+        <a href="http://moodle.vinci.be">Moodle</a>
+      </li>
+      <li>
+        <a href="form.html">Laissez un commentaire</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <h2>
+    Envie de déposer un commentaire ?
+  </h2>
+  <p>
+    Vous pouvez à l'aide de ce formulaire, entrez un commentaire ou une remarque sur la recette HTML.
+  </p>
+  <form method="post" action="trt.php">
+    <fieldset>
+      <legend>
+        Informations personnelles :
+      </legend>
+      <label for="name">Votre nom :</label>
+      <input id= "name" type="text" value="Entrez ici votre nom">
+      <br><br>
+      <label for="surname">Votre prénom :</label>
+      <input id="surname" type="text" value="Entrez ici votre prénom">
+      <br><br>
+      <label for="email">Votre email :</label>
+      <input id="email" type="email" value ="Entrez ici votre email" pattern="(^[a-z0-9]+)@([a-z0-9])+(\.)([a-z]{2,4})" name="exemple_email">
+    </fieldset>
+    <fieldset>
+      <legend>
+        Commentaire :
+      </legend>
+      <textarea name="commentaire" cols="100" rows = "5">
+        Entrez ici votre commentaire
+      </textarea>
+    </fieldset>
+    <input id="submit" type="submit" value="Envoyer">
+  </form>
+</section>
+<footer>
+  Recette créée par Choquet Olivier.
+</footer>
+</body>
+</html>

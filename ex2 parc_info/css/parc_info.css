@@ -1,0 +1,122 @@
+*{
+  font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+/*****************************************************HEADER************************************************************/
+header{
+  margin: auto;
+  text-align: left;
+
+}
+header section{
+  border: 1px solid blue;
+  margin: 10px;
+}
+header img{
+  margin: 10px;
+}
+header nav{
+  padding-top: 10px;
+  background-color: black;
+  height: 50px;
+}
+header nav ul{
+  padding: 10px;
+}
+header nav li{
+  display: inline;
+  padding: 20px;
+}
+header nav li a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+header nav a:hover, nav a.current{
+  text-shadow: rgba(255,255,255,0.5) 1px 0px 1px; text-decoration: none;
+  border: 1px solid #36b0d9; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -o-border-radius: 10px;
+  background-color: #F7E0AE;
+  color: black;
+  text-decoration: underline;
+}
+
+/*****************************************************CENTER************************************************************/
+
+body h2{
+  margin: 10px;
+  font-weight: normal;
+}
+.conteneur{
+  display: flex;
+  flex-direction: row;
+}
+body section article{
+  width: 75%;
+  padding: 10px;
+}
+body section article h2{
+  color: blue;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+#listeIncidents{
+  width: 100%;
+  text-align: center;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+th{
+  border: 1px solid;
+}
+th.local{
+  border: 1px solid;
+  width: 10%;
+}
+th.gravite{
+  border: 1px solid;
+  width: 20%;
+}
+td{
+  border: 1px solid;
+}
+body section aside{
+  background-color: orange;
+  margin: 10px;
+  width: 1050px;
+}
+body section aside h4{
+  text-decoration: underline;
+}
+body section aside p{
+  margin-top: 10px;
+}
+body form{
+  margin: 50px;
+}
+body form fieldset{
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+}
+body form fieldset section{
+  display: inline;
+  margin: 10px;
+}
+#submit{
+  margin-top: 10px;
+}
+
+/**************************************************FOOTER***************************************************************/
+
+footer{
+  background-color: black;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
